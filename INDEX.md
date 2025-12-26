@@ -1,38 +1,18 @@
 # Ticket Index (T001–T007)
 
-Quick navigation to all documented cases.
+Quick navigation for the incident tickets in this portfolio.  
+All tickets are anonymized and contain no client-identifiable information.
 
-## Connectivity / Drivers
-- **T001 — No network after Windows install (Ethernet)**
-  - Restore wired connectivity by installing the correct ASRock LAN/NIC driver and validating adapter status.
-  - File: `tickets/T001-no-network-after-windows-install-nic-driver.md`
+| Ticket | Title (short) | Category | Link |
+|---|---|---|---|
+| T001 | No Network After Windows Install (Missing NIC Driver) | Connectivity / Drivers | [Open](tickets/T001-no-network-after-windows-install-nic-driver.md) |
+| T002 | Frequent Fortnite Crashes (Event Viewer: DX11 → DX12) | App Stability / Triage | [Open](tickets/T002-fortnite-crash-event-viewer-dx11-to-dx12.md) |
+| T003 | Slow Boot + Heavy Startup (Reduce Startup Load + Full Shutdown) | Performance | [Open](tickets/T003-slow-boot-startup-apps-fast-shutdown.md) |
+| T004 | Legacy Laptop Upgrade (HDD→SSD + DDR3 SODIMM 4GB→8GB) | Hardware Upgrade | [Open](tickets/T004-legacy-laptop-hdd-to-ssd-ddr3-sodimm-ram-upgrade.md) |
+| T005 | Endpoint Standardization + Performance Tuning (Guided/Remote) | Endpoint Ops | [Open](tickets/T005-endpoint-standardization-performance-tuning-remote.md) |
+| T006 | CPU Overheating (i5-12400F: Repaste + Cooler Upgrade) | Thermals / Hardware | [Open](tickets/T006-cpu-overheating-i5-12400f-stock-cooler-repaste-aircooler-upgrade.md) |
+| T007 | MSI UEFI Fan Curve Correction (Guided/Remote) | UEFI/BIOS | [Open](tickets/T007-msi-uefi-chassis-fan-curve-guided-remote.md) |
 
-## Application Stability (Crash Triage)
-- **T002 — Frequent Fortnite crashes (Event Viewer)**
-  - Event Viewer triage to isolate DX11 instability; switched to DX12 and verified stability.
-  - File: `tickets/T002-fortnite-crash-event-viewer-dx11-to-dx12.md`
-
-## Boot / Startup Performance
-- **T003 — Slow boot & heavy startup**
-  - Reduced startup load by disabling non-essential startup apps and applying full shutdown when needed.
-  - File: `tickets/T003-slow-boot-startup-apps-fast-startup-full-shutdown.md`
-
-## Hardware Upgrade (Performance Remediation)
-- **T004 — Legacy laptop performance upgrade (HDD → SSD + DDR3 SODIMM RAM)**
-  - Identified storage/RAM bottlenecks and upgraded to SSD + increased DDR3 SODIMM memory for daily usability.
-  - File: `tickets/T004-legacy-laptop-hdd-to-ssd-ddr3-sodimm-ram-upgrade.md`
-
-## Endpoint Standardization / Performance Tuning
-- **T005 — Endpoint standardization & performance tuning (remote)**
-  - Standardized endpoint configuration and improved performance using built-in Windows settings (no third-party tools).
-  - File: `tickets/T005-endpoint-standardization-performance-tuning-remote.md`
-
-## Thermals (CPU)
-- **T006 — CPU overheating under load (i5-12400F)**
-  - Diagnosed sustained high temps; replaced stock cooler/thermal paste, cleaned system, and confirmed improvement under stress test.
-  - File: `tickets/T006-cpu-overheating-i5-12400f-stock-cooler-repaste-and-aircooler-upgrade.md`
-
-## Fan Noise (UEFI/BIOS)
-- **T007 — MSI UEFI chassis fan curve tuning (guided remote)**
-  - Guided users through UEFI fan-curve correction to reduce excessive chassis fan noise under load while maintaining safe thermals.
-  - File: `tickets/T007-msi-uefi-chassis-fan-curve-guided-remote.md`
+## Ticket Format (Standard)
+Each ticket follows a support-style structure:
+Impact → Environment → Symptoms → Investigation → Resolution → Verification → Root Cause → Prevention.
