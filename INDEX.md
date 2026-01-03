@@ -12,6 +12,7 @@ All tickets are anonymized and contain no client-identifiable information.
 | T005 | Endpoint Standardization + Performance Tuning (Guided/Remote) | Endpoint Ops | [Open](tickets/T005-endpoint-standardization-performance-tuning-remote.md) |
 | T006 | CPU Overheating (i5-12400F: Repaste + Cooler Upgrade) | Thermals / Hardware | [Open](tickets/T006-cpu-overheating-i5-12400f-stock-cooler-repaste-aircooler-upgrade.md) |
 | T007 | MSI UEFI Fan Curve Correction (Guided/Remote) | UEFI/BIOS | [Open](tickets/T007-msi-uefi-chassis-fan-curve-guided-remote.md) |
+| T008 | Intermittent Audio Dropouts (DPC Latency: WFP Filter + ACPI Power) | Windows / Audio / Performance | [Open](tickets/T008-dpc-latency-audio-dropouts-wfp-acpi.md) |
 
 ## Ticket Format (Standard)
 Each ticket follows a support-style structure:
